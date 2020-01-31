@@ -11,7 +11,7 @@ def assembled_aoh
 end
 
 def literal_aoh
-   lite[DON_G, JOELLE_VD, PAT_M, KATE_G, BRUCE_G].sort
+   assembled_aoh.map.sort
 end
 
 def aoh_lookup(aoh, row, key)
