@@ -11,7 +11,7 @@ def assembled_aoh
 end
 
 def literal_aoh
-  
+  assembled_aoh.map { |item| item.sort }
 end
 
 def aoh_lookup(aoh, row, key)
