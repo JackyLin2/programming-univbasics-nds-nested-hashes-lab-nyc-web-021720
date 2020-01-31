@@ -20,5 +20,4 @@ end
 
 def aoh_update(aoh, row, key, new_value)
    aoh[row][column] = new_value
-   aoh
 end
